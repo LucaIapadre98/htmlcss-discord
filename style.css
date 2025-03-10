@@ -1,5 +1,7 @@
 header{
     border: 1px dashed black;
+    padding: 1rem;
+    background-color: #3e3efb;
 }
 .header-page .header-top{
     display: flex;
