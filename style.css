@@ -109,9 +109,29 @@ h1{
 }
 
 footer {
-    background-color: red;
+    background-color: #231e1e;
     height: 400px;
+    padding: 50px;
 }
 .conteiner-footer{
-    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    color: #8585ea;
+}
+
+.conteiner-footer p{
+    color: white;
+}
+
+.conteiner-footer h1{
+    color:  #8585ea;
+}
+.conteiner-footer{
+    border-bottom: 1px solid #8585ea;
+
+}
+.footer-bottom p{
+    color: white;
 }
