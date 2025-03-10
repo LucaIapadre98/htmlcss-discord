@@ -8,9 +8,12 @@ header{
 .header-top{
     justify-content: space-between;
     color: white;
-    padding: .5rem;
+    padding-top: .5rem;
 }
 h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.title{
     text-align: center;
     color: white;
 }
@@ -20,7 +23,7 @@ h1{
     padding-left: 1rem;
 }
 .header-bottom{
-    padding: 1.5rem;
+    padding: 0.5rem;
 }
 .header-bottom .link{
     text-align: center;
@@ -57,7 +60,7 @@ h1{
 .main-page-1{
     display: flex;
     flex-direction: row-reverse;
-    background-color: hsl(0, 0%, 91%);
+    background-color: hwb(0 91% 9%);
     padding: 0;
 }
 .main-text-1{
@@ -65,11 +68,22 @@ h1{
    padding-left: 50px;
 }
 .main-img-1{
-    padding-right: 20px;
+    padding-right: 15px;
 }
 .main-page-2{
     display: flex;
 }
 .main-img-2{
     margin-left: 10px;
+    padding-top: 35px;
+}
+.main-text-2{
+    padding-right: 35px;
+    padding-top: 35px;
+}
+.main-conteiner-bottom{
+    border: 1px solid white;
+    background-color:hwb(0 91% 9%) ;
+    text-align: center;
+    padding-top: 25px;
 }
