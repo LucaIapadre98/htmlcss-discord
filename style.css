@@ -1,11 +1,40 @@
+
 header{
-    border: 1px dashed black;
-    padding: 1rem;
-    background-color: #3e3efb;
+    background-color: hsl(240, 100%, 65%);
 }
 .header-page .header-top{
     display: flex;
+
 }
 .header-top{
     justify-content: space-between;
+    color: white;
+    padding: .5rem;
 }
+h1{
+    text-align: center;
+    color: white;
+}
+p{
+    text-align: center;
+    color: white;
+    padding-left: 1rem;
+}
+.header-bottom{
+    padding: 1.5rem;
+}
+.header-bottom .link{
+    text-align: center;
+}
+.header-bottom  a{
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.conteiner{
+    padding: 2rem;
+    background-image: url(../htmlcss-discord/jumbo.png);
+    background-size: cover;
+} 
